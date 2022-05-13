@@ -14,6 +14,7 @@ repositories {
 }
 
 dependencies {
+  implementation("org.xerial:sqlite-jdbc:3.36.0.3")
   testImplementation(group = "io.kotest", name = "kotest-property", version = "5.3.0")
   testImplementation(group = "io.kotest", name = "kotest-common", version = "5.3.0")
   implementation(group = "org.jetbrains.exposed", name = "exposed-core", version = "0.38.2")
